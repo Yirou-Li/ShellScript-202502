@@ -1,5 +1,7 @@
 # 详细说明
-
+# 创建一个状态文件
+# 创建一个空文件（例如 tar_state.txt）来记录 tar 的处理状态：
+touch tar_state.txt
 # --listed-incremental 的工作原理
 # tar 会读取状态文件（例如 tar_state.txt），记录上一次备份时的文件状态。
 # 如果文件在上一次备份后没有修改，tar 会跳过这些文件，避免重复处理。
