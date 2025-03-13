@@ -13,7 +13,7 @@
 
 `tar -xzvf tmux.tar.gz`
 解压后，您将获得以下目录结构：
-
+```
 ~/tmux/
 ├── bin/
 │   └── tmux
@@ -23,7 +23,7 @@
     ├── libresolv.so.2
     ├── libc.so.6
     └── ld-linux-x86-64.so.2
-
+```
 ##3. 配置环境变量
 
 将 tmux 及其依赖库路径添加到环境变量中，以便系统能够正确找到它们。
